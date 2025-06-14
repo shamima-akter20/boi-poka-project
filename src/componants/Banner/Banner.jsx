@@ -1,22 +1,26 @@
 import React from 'react'
+// import bannerImg from '../../assets/image/book.webp'
+import bookStack from '../../assets/image/bookstack.mp4'
 
 const Banner = () => {
   return (
     <div>
       <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
-          <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <button className="btn btn-primary">Get Started</button>
+        <div className="hero-content px-10 flex-col lg:flex-row-reverse">
+          {/* <img src={bannerImg} className="max-w-sm rounded-lg shadow-2xl" /> */}
+          <div className="flex flex-1 px-6">
+            <video autoPlay loop muted className="w-full">
+              <source src={bookStack} type="video/mp4" />
+            </video>
+          </div>
+          <div className="flex flex-1 px-6">
+            <div className="">
+              <h1 className="text-5xl font-bold font-libra py-6 ">
+                Book to freshen up your bookshelf
+              </h1>
+
+              <button className="btn btn-primary my-10">Get Started</button>
+            </div>
           </div>
         </div>
       </div>
