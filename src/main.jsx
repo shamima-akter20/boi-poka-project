@@ -6,6 +6,7 @@ import Root from './componants/Layouts/Root'
 import ErrorPage from './componants/ErrorPage/ErrorPage'
 import Home from './componants/Home/Home'
 import Dashboard from './componants/Dashboard/Dashboard'
+import BookDetail from './componants/BookDetail/BookDetail'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
+      },
+      {
+        path: 'books/:id',
+        element: <BookDetail> </BookDetail>,
       },
       {
         path: '/dashboard',
