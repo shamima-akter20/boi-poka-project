@@ -14,6 +14,7 @@ const Book = ({ book }) => {
     review,
     publisher,
     publishingdate,
+    bookDetails,
   } = book
 
   return (
