@@ -3,17 +3,17 @@ import { useLoaderData, useParams } from 'react-router-dom'
 
 const BookDetail = () => {
   const { id } = useParams()
+  const data = useLoaderData()
   const bookId = parseInt(id)
 
-  const data = useLoaderData()
-  console.log(id)
-  console.log(data)
+  // console.log(id)
+  // console.log(data)
 
   const book = data.find((books) => books.id === bookId)
   console.log(book, bookId)
 
   const {
-    id,
+    // id: currentBookId,
     image,
     category,
     bookName,

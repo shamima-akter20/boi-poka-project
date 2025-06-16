@@ -10,7 +10,8 @@
     "totalpage": 671,
     "review": 2563,
     "publisher": "The Russian Messenger",
-    "publishingdate": "1866-01-01"
+    "publishingdate": "1866-01-01",
+    "bookDetails": "A masterpiece of psychological realism, this novel delves deep into the tortured mind of a young man who believes himself above morality, only to be consumed by guilt after committing a murder."
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     "totalpage": 824,
     "review": 1987,
     "publisher": "The Russian Messenger",
-    "publishingdate": "1880-01-01"
+    "publishingdate": "1880-01-01",
+    "bookDetails": "An epic exploration of faith, free will, and morality, this novel follows the troubled Karamazov brothers as they confront the death of their father and the existential chaos within themselves."
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     "totalpage": 201,
     "review": 1754,
     "publisher": "Kurt Wolff Verlag",
-    "publishingdate": "1915-11-01"
+    "publishingdate": "1915-11-01",
+    "bookDetails": "A haunting tale of alienation, Kafka's novella tells the story of Gregor Samsa, who wakes up one morning transformed into a giant insect and becomes a burden to his family."
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     "totalpage": 255,
     "review": 1432,
     "publisher": "Verlag Die Schmiede",
-    "publishingdate": "1925-04-26"
+    "publishingdate": "1925-04-26",
+    "bookDetails": "Joseph K. finds himself arrested and prosecuted by a mysterious and inaccessible authority, in a surreal and nightmarish legal system that mirrors the absurdity of modern existence."
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
     "totalpage": 244,
     "review": 1235,
     "publisher": "Heinemann",
-    "publishingdate": "1963-01-14"
+    "publishingdate": "1963-01-14",
+    "bookDetails": "A semi-autobiographical account of a young woman's descent into mental illness, Sylvia Plath’s only novel poignantly captures the suffocating pressure of societal expectations on a fragile mind."
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
     "totalpage": 214,
     "review": 900,
     "publisher": "Chūōkōron-sha",
-    "publishingdate": "1948-06-01"
+    "publishingdate": "1948-06-01",
+    "bookDetails": "An intensely personal and emotionally raw novel that portrays the gradual disintegration of Oba Yozo’s identity as he tries to fit into a society that feels utterly alien to him."
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
     "totalpage": 215,
     "review": 652,
     "publisher": "Chūōkōron-sha",
-    "publishingdate": "1948-10-01"
+    "publishingdate": "1948-10-01",
+    "bookDetails": "A poignant collection of stories that explores isolation, despair, and human vulnerability through lyrical prose and deeply introspective characters."
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
     "totalpage": 250,
     "review": 1100,
     "publisher": "Bengali Press",
-    "publishingdate": "1903-01-01"
+    "publishingdate": "1903-01-01",
+    "bookDetails": "A timeless Bengali classic portraying complex emotions of love, jealousy, and betrayal, centered around a young widow named Binodini who challenges societal norms."
   },
   {
     "id": 9,
@@ -114,6 +122,7 @@
     "totalpage": 190,
     "review": 987,
     "publisher": "Bengali Press",
-    "publishingdate": "1917-01-01"
+    "publishingdate": "1917-01-01",
+    "bookDetails": "A tragic tale of unfulfilled love, 'Devdas' captures the emotional agony of a man who turns to alcohol and self-destruction after being separated from his childhood love."
   }
 ]
