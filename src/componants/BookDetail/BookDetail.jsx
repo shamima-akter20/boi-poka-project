@@ -1,5 +1,9 @@
 import React from 'react'
 import { useLoaderData, useParams } from 'react-router-dom'
+import {
+  addToStoredReadList,
+  addToStroredWishList,
+} from '../../Utility/addToDB'
 
 const BookDetail = () => {
   const { id } = useParams()
@@ -27,7 +31,13 @@ const BookDetail = () => {
     bookDetails,
   } = book
 
-  const handleMarkAsRead = () => {}
+  const handleMarkAsRead = (id) => {
+    addToStoredReadList(id)
+  }
+
+  const handleAddToWishList = (id) => {
+    addToStroredWishList(id)
+  }
 
   return (
     <div>
@@ -92,12 +102,17 @@ const BookDetail = () => {
 
             <div className="flex gap-4">
               <button
-                onClick={handleMarkAsRead}
+                onClick={() => handleMarkAsRead(id)}
                 className="btn btn-outline btn-primary"
               >
                 Mark as Read
               </button>
-              <button className="btn btn-primary">Add to Wish List</button>
+              <button
+                onClick={() => handleAddToWishList(id)}
+                className="btn btn-primary"
+              >
+                Add to Wish List
+              </button>
             </div>
           </div>
         </div>
