@@ -8,6 +8,7 @@ import Home from './componants/Home/Home'
 import Dashboard from './componants/Dashboard/Dashboard'
 import BookDetail from './componants/BookDetail/BookDetail'
 import Listedbooks from './componants/listedBooks/Listedbooks'
+import { ToastContainer } from 'react-toastify'
 
 const router = createBrowserRouter([
   {
@@ -40,5 +41,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <ToastContainer />
   </StrictMode>
 )
